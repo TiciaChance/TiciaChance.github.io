@@ -1,0 +1,86 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {color: #A6B22B;
+	font-family: sans-serif;
+}
+
+header {text-align: center;
+	background: url(images/background.jpg);
+	background-attachment: fixed;
+	color: teal;
+}
+
+header img {3px solid #fff;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.links {background: #4aa6ff;
+	text-align: center;
+	color: #A6B22B;
+}
+
+.links a {color: #A6B22B;
+}	
+
+ul.websites {
+	padding: 0px;
+}
+
+ul.websites li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.websites a { 
+	background: #FF9163;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 24px;
+	display: block;
+
+}
+
+.hobbies {background: #4aa6ff;
+	text-align: center;
+}		
+
+li {list-style-type: none;
+}
+
+.contact {background: url(images/dark_embroidery.png);
+	text-align: center;
+	color: #fff;
+}
+
+.contact a {color: #FF6C63;
+}
+
+.contact img {width: 100px;
+	margin: 10px;
+	border-radius: 100%;
+}
+
+.contact img:hover {
+	opacity: 0.5;
+}
+
+.stacked {
+	padding: 10px;
+}
+
+#smaller {width: 50%;
+	height: 50%;
+	position: relative;
+	left: 25%;
+}
+
+#picture {
+	background: #1A68B2;
+}
